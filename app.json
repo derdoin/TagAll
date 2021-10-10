@@ -1,0 +1,21 @@
+{
+  "name": "Tah All Bot",
+  "description": "A simple Tag all for telegram.",
+  "env": {
+    "TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
